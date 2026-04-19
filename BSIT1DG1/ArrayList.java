@@ -16,30 +16,25 @@ ArrayList<Integer> Age2= new ArrayList <Integer>();
 
 ArrayList<Double> Grade2= new ArrayList <Double>();
 
-Name.add("Lebron James");
-Name.add("Giannis Antetokounmpo");
-Name.add("Stephen Curry");
-Name.add(0,"Kawhi");
-//Name.set(2,"Derozan");
-//Name2.addAll(Name);
+Name.add("Lai");
+Name.add("Aly");
+Name.add("Sofi");
+Name.add(0,"Aly");
 
-Age.add(41);
-Age.add(30);
-Age.add(38);
-Age.add(1,37);
-//Age.remove(3);
+Age.add(20);
+Age.add(37);
+Age.add(33);
+Age.add(3,89);
 
-Grade.add(90.5);
 Grade.add(91.5);
-Grade.add(94.5);
-Grade.add(1,98.5);
-//Grade.remove(Double.valueOf(91.5));
-//Grade.clear();
+Grade.add(97.5);
+Grade.add(92.5);
+Grade.add(1,99.5);
 
 System.out.println(Name);
 System.out.println(Age);
 System.out.println(Grade);
-//System.out.println(Name2);
+
 
 for (int i=0; i<Grade.size(); ++i)
 {
@@ -50,6 +45,5 @@ System.out.println();
 }
 
 }
-
 
 }
